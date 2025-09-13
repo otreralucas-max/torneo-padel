@@ -24,19 +24,19 @@
       padding: 0 10px;
     }
 
-    /* Contenedor que permite scroll vertical */
+    /* Contenedor que permite scroll vertical para planilla larga */
     .iframe-container {
       width: 100%;
-      height: 100vh; /* Ocupa 80% de la altura de la pantalla */
+      height: 80vh; /* ocupa 80% de la altura de la pantalla */
       overflow-y: scroll;
-      -webkit-overflow-scrolling: touch; /* Para scroll suave en iOS */
+      -webkit-overflow-scrolling: touch; /* scroll suave en iOS */
       border: 1px solid #ccc;
       background-color: white;
     }
 
     .iframe-container iframe {
       width: 100%;
-      height: 2000px; /* Ajusta según el tamaño real de tu planilla */
+      height: 1200px; /* ajusta según la altura de tu planilla */
       border: 0;
     }
   </style>
@@ -45,7 +45,7 @@
   <div class="container">
     <h1>Torneo de Padel - Resultados</h1>
     <div class="iframe-container">
-      <iframe 
+      <iframe
         src="https://1drv.ms/x/c/c7d6c592992a3aff/IQSdBJz1xyxXQbWXVMycJhf1AV8bKBhoLbiwPK9riVaTxEA?em=2&wdAllowInteractivity=False&Item='Participantes%20y%20Grupos'!A1%3AW40&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"
         frameborder="0"
         scrolling="no"
@@ -55,6 +55,7 @@
   </div>
 </body>
 </html>
+
 
 
 
